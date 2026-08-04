@@ -1,0 +1,15 @@
+{
+  "name": "club-de-amigos",
+  "version": "0.0.1",
+  "description": "Aplicación colaborativa para que niños puedan jugar y comunicarse en un entorno seguro.",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {},
+  "keywords": [],
+  "author": "Ezequiel Roth",
+  "license": "MIT"
+}

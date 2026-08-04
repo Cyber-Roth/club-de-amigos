@@ -1,0 +1,23 @@
+# Dependencias
+node_modules/
+
+# Compilación
+dist/
+build/
+
+# Variables de entorno
+.env
+.env.local
+
+# Logs
+*.log
+
+# Cobertura
+coverage/
+
+# VS Code
+.vscode/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
