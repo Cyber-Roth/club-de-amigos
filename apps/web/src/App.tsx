@@ -1,24 +1,27 @@
-import './App.css'
+import "./App.css";
 
 function App() {
   return (
-    <main className="app">
-      <section className="hero">
-        <h1>🎈 Club de Amigos</h1>
+    <main className="home">
+      <h1>🌈 Club de Amigos</h1>
 
-        <h2>Versión 0.0.1</h2>
+      <p>Un lugar seguro para jugar con amigos.</p>
 
-        <p>
-          Un lugar seguro donde los niños pueden jugar,
-          hablar y compartir momentos con sus amigos.
-        </p>
+      <button>Crear una sala</button>
 
-        <button>
-          Comenzar
-        </button>
-      </section>
+      <div className="join">
+        <h2>¿Ya te invitaron?</h2>
+
+        <input
+          type="text"
+          placeholder="Código de la sala"
+          maxLength={6}
+        />
+
+        <button>Entrar</button>
+      </div>
     </main>
-  )
+  );
 }
 
-export default App
+export default App;
